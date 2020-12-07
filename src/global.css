@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+*::after,*::before{
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+ol{
+    list-style: none;
+}

@@ -1,0 +1,28 @@
+#app4{
+    flex: 1;
+    height: 50vh;
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+}
+#app4 .circle{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    margin:100px auto;
+}
+#app4 .active{
+    animation: changeColor .7s linear infinite;
+}
+@keyframes changeColor{
+    0%{
+        background-color: bisque;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: blue;
+    }
+}

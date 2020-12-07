@@ -1,0 +1,26 @@
+#app2{
+    flex: 1;
+    height: 50vh;
+    border: 1px solid red;
+    border-left: 0;
+}
+.tabBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tabBar li{
+    width: 50%;
+    border: 1px solid yellow;
+    text-align: center;
+}
+.tabContent li{
+    display: none;
+}
+.selected{
+    background-color: yellow;
+}
+.active{
+    display: block!important;
+}
+
